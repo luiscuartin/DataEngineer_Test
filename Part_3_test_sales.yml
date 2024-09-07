@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: Part_3_sales
+    description: "Total sales amount per customer"
+    columns:
+      - name: customer_id
+        description: "Unique identifier for the customer"
+        tests:
+          - not_null
+          - unique
+      - name: total_sales
+        description: "Total sales amount for the customer"
+        tests:
+          - not_null
+
+ #This unit test focuses on validating that the data in the customer_id
+ # is consistent, complete, and non-repetitive,and total_sales is consistent and 
+ # complete which is essential for the integrity of the customer data model.
+

@@ -1,0 +1,6 @@
+
+I assumed that the data would be used for general reporting, data analysis, 
+and analytical queries, so I chose the star schema instead of the snowflake schema, 
+which should always be avoided if possible. However, if the data were to be used 
+for daily transactions or inventory updates, the 3NF model would be used.
+

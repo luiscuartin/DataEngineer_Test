@@ -1,0 +1,19 @@
+
+models:
+  - name: Part_3_raw_customer
+    description: "Normalized raw costumer data"
+    columns:
+      - name: customer_id
+        description: "Unique identifier for the customer"
+        tests:
+          - not_null
+          - unique
+      - name: email
+        description: "Email address of the customer"
+        tests:
+          - not_null
+          - unique
+
+#This unit test focuses on validating that the data in the customer_id
+# and email columns is consistent, complete, and non-repetitive,
+# which is essential for the integrity of the customer data model.

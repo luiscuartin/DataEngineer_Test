@@ -1,0 +1,17 @@
+
+I have experience in Power BI and knowledge about creating reports, dashboards, data models, DAX, Power Query, and more.
+
+However, in my current job, I am using a Linux operating system, which makes it impossible to use Power BI Desktop.
+I tried using Power BI Services, but it is very limited to just loading data, a few transformations, and visualization, 
+so I am unable to create tables, new columns, or measures. I attempted to install VirtualBox but encountered some issues, 
+so I’ve decided to describe what I would use for this type of data and visualizations.
+
+For Sales by Category, I would use a stacked bar chart or a donut chart if there are few categories to show the 100% proportion, 
+with filters for date and region.
+
+For Sales by Region, I would use a bubble map filtered by date, category, and regions with low granularity.
+
+For Monthly Sales Comparison, I would use a data table with the following columns (Year, Month, Sales, Last Month’s Sales, % Change), 
+filtered by date, category, region, and product.
+
+I also have experience with Tableau and Qlik, but I feel more comfortable with Power BI.
